@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 500" width="820" height="500" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect width="820" height="500" rx="14" fill="#faf8f3"/>
+  <text x="410" y="36" text-anchor="middle" font-size="17" font-weight="700" fill="#1b1b19">Same applicant, same CV. Two ways to get an SOP.</text>
+
+  <!-- left -->
+  <rect x="24" y="56" width="372" height="380" rx="10" fill="#fff" stroke="#e3ddd0"/>
+  <text x="44" y="84" font-size="13" font-weight="700" fill="#8a3324">"Write my SOP for CMU Robotics"</text>
+  <text x="44" y="102" font-size="11.5" fill="#6d6458">a plain prompt to any chatbot</text>
+
+  <g font-size="12.5" fill="#1b1b19">
+    <rect x="40" y="118" width="340" height="62" rx="6" fill="#fbe9e5"/>
+    <text x="52" y="139">Ever since I was a child, I have been</text>
+    <text x="52" y="156">fascinated by robots.</text>
+    <text x="52" y="172" font-size="11" fill="#b0402c">✗ a feeling the applicant never reported</text>
+
+    <rect x="40" y="190" width="340" height="62" rx="6" fill="#fbe9e5"/>
+    <text x="52" y="211">I led a team of 12 engineers and improved</text>
+    <text x="52" y="228">pick accuracy by 40%.</text>
+    <text x="52" y="244" font-size="11" fill="#b0402c">✗ CV says a team of 4; the 40% has no source</text>
+
+    <rect x="40" y="262" width="340" height="62" rx="6" fill="#fbe9e5"/>
+    <text x="52" y="283">CMU's world-class faculty make it the</text>
+    <text x="52" y="300">ideal environment for my research.</text>
+    <text x="52" y="316" font-size="11" fill="#b0402c">✗ 200 other applicants wrote this sentence</text>
+
+    <rect x="40" y="334" width="340" height="86" rx="6" fill="#f1ede4"/>
+    <text x="52" y="356" font-size="12" fill="#6d6458">Reads smoothly. Falls apart in the interview</text>
+    <text x="52" y="373" font-size="12" fill="#6d6458">the first time a professor asks</text>
+    <text x="52" y="390" font-size="12" fill="#6d6458">"tell me about that 40%".</text>
+  </g>
+
+  <!-- arrow -->
+  <path d="M400 246 h18" stroke="#1b1b19" stroke-width="2"/>
+  <path d="M418 240 l8 6 l-8 6 z" fill="#1b1b19"/>
+
+  <!-- right -->
+  <rect x="424" y="56" width="372" height="380" rx="10" fill="#fff" stroke="#e3ddd0"/>
+  <text x="444" y="84" font-size="13" font-weight="700" fill="#1f6f66">phd-statement-coach</text>
+  <text x="444" y="102" font-size="11.5" fill="#6d6458">drafts only from sources you gave it</text>
+
+  <g font-size="12.5" fill="#1b1b19">
+    <rect x="440" y="118" width="340" height="62" rx="6" fill="#e6f2ef"/>
+    <text x="452" y="139" font-family="ui-monospace, Menlo, monospace" font-size="11.5">[TODO: the day you decided to leave</text>
+    <text x="452" y="156" font-family="ui-monospace, Menlo, monospace" font-size="11.5">industry. One scene, your words.]</text>
+    <text x="452" y="172" font-size="11" fill="#1f6f66">✓ a slot you fill, not a memory it invents</text>
+
+    <rect x="440" y="190" width="340" height="62" rx="6" fill="#e6f2ef"/>
+    <text x="452" y="211">I led a team of 4 that cut mis-picks from</text>
+    <text x="452" y="228">6.1% to 2.3% on the night shift.</text>
+    <text x="452" y="244" font-size="11" fill="#1f6f66">✓ CV line 12 · results.csv · condition stated</text>
+
+    <rect x="440" y="262" width="340" height="62" rx="6" fill="#e6f2ef"/>
+    <text x="452" y="283" font-size="12">Reviewer, fresh context · Fit 4/10:</text>
+    <text x="452" y="300" font-size="12">"Which of Prof. A's papers did you open,</text>
+    <text x="452" y="316" font-size="12">and what would your question add to it?"</text>
+
+    <rect x="440" y="334" width="340" height="86" rx="6" fill="#f1ede4"/>
+    <text x="452" y="356" font-family="ui-monospace, Menlo, monospace" font-size="11.5">$ audit.py sop.md --profile p.md</text>
+    <text x="452" y="374" font-family="ui-monospace, Menlo, monospace" font-size="11.5">placeholders: []  forbidden: []</text>
+    <text x="452" y="392" font-family="ui-monospace, Menlo, monospace" font-size="11.5">em_dashes: 0</text>
+    <text x="452" y="410" font-family="ui-monospace, Menlo, monospace" font-size="11.5" fill="#1f6f66">RESULT: clean</text>
+  </g>
+
+  <text x="410" y="468" text-anchor="middle" font-size="11.5" fill="#6d6458">Invented applicant for illustration. On the right, every sentence traces to a CV line, a results file or the applicant's own answer.</text>
+</svg>

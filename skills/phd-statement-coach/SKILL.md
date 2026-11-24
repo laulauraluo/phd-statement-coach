@@ -1,5 +1,5 @@
 ---
-name: phd-sop
+name: phd-statement-coach
 description: Write, adapt and review a PhD Statement of Purpose (SOP / research statement) for a specific program, grounded only in facts the applicant can source. Use when the user wants to draft an SOP, adapt an SOP to another school, check an SOP against a program's prompt, review or score an SOP, cut it to a page limit, or export it to PDF for an application portal. Works for CS, ML and robotics PhD applications, including career switchers from industry.
 ---
 
